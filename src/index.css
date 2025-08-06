@@ -92,7 +92,7 @@
     --sidebar-accent-foreground: hsl(0 0% 98.0392%);
     --sidebar-border: hsl(0 0% 16.0784%);
     --sidebar-ring: hsl(141.8919 69.1589% 58.0392%);
-    --font-sans: Inter, ui-sans-serif, sans-serif, system-ui;
+    --font-primary: Inter, ui-sans-serif, sans-serif, system-ui;
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times,
         serif;
     --font-mono: monospace;
@@ -150,7 +150,7 @@
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-ring: var(--sidebar-ring);
 
-    --font-sans: var(--font-sans);
+    --font-primary: var(--font-sans);
     --font-mono: var(--font-mono);
     --font-serif: var(--font-serif);
 
@@ -178,4 +178,7 @@
 
 body {
     letter-spacing: var(--tracking-normal);
+    color: var(--color-primary-foreground);
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
 }
