@@ -19,9 +19,9 @@ const buttonVariants = cva(
 					"bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
 				ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
 				link: "text-primary underline-offset-4 hover:underline",
-				hero: "bg-primary text-primary-foreground shadow-xs hover:bg-primary/70 inline-flex rounded-full text-md !py-[1.7rem] flex w-fit !px-6 items-center hover:translate-y-[-3px] transition-transform",
+				hero: "font-medium bg-primary text-background shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-[1.7rem] flex w-fit !px-6 items-center hover:translate-y-[-3px] transition-transform",
 				hero_outline:
-					"border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-background dark:border-input dark:hover:bg-input/50 text-primary-foreground shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-6 flex w-fit !px-6 items-center has-[>svg]:gap-3 hover:translate-y-[-3px] transition-transform",
+					"border font-semibold bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-background dark:font-medium dark:border-foreground/40 dark:hover:bg-input/50 text-primary-foreground shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-6 flex w-fit !px-6 items-center has-[>svg]:gap-3 hover:translate-y-[-3px] transition-transform",
 			},
 			size: {
 				default: "h-9 px-4 py-2 has-[>svg]:px-3",
