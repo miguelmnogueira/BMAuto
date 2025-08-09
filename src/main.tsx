@@ -8,7 +8,7 @@ import Header from "./components/Header";
 
 createRoot(document.getElementById("root")!).render(
 	<BrowserRouter>
-		<ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+		<ThemeProvider  defaultTheme="light" storageKey="vite-ui-theme">
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />

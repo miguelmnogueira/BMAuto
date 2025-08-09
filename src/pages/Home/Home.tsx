@@ -1,9 +1,13 @@
+import Features from "./_components/Features";
 import Hero from "./_components/Hero";
 
 function Home() {
 	return (
-		<div className="px-28">
+		<div className="px-28 flex flex-col gap-10">
 			<Hero />
+			<section className="h-screen flex items-center justify-center">
+				<Features />
+			</section>
 		</div>
 	);
 }
