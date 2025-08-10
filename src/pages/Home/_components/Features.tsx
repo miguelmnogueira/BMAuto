@@ -1,6 +1,6 @@
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { BellIcon, CalendarIcon, FileTextIcon, GlobeIcon } from "lucide-react";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 
 const features = [
 	{

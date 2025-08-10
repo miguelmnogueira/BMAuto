@@ -2,17 +2,19 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 
-import Home from "./pages/Home/Home";
+import Home from "./pages/home/Home";
 import { ThemeProvider } from "./components/ThemeProvider";
 import Header from "./components/Header";
 
 createRoot(document.getElementById("root")!).render(
 	<BrowserRouter>
-		<ThemeProvider  defaultTheme="light" storageKey="vite-ui-theme">
+		<ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
 			<Header />
-			<Routes>
-				<Route path="/" element={<Home />} />
-			</Routes>
+			<div className="container mx-auto px-container">
+				<Routes>
+					<Route path="/" element={<Home />} />
+				</Routes>
+			</div>
 		</ThemeProvider>
 	</BrowserRouter>
 );

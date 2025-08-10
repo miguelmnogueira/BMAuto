@@ -11,6 +11,9 @@ body {
 	background-color: var(--color-background);
 }
 
+@theme {
+	--spacing-container: 10px;
+}
 :root {
 	--background: hsl(0 0% 98.8235%);
 	--foreground: hsl(0 0% 9.0196%);
@@ -30,7 +33,7 @@ body {
 	--destructive-foreground: hsl(0 100% 99.4118%);
 	--border: hsl(0 0% 87.451%);
 	--input: hsl(0 0% 96.4706%);
-	--ring: hsl(151.3274 66.8639% 66.8627%);
+	--ring: hsla(0, 85%, 55%, 0.363);
 	--chart-1: hsl(151.3274 66.8639% 66.8627%);
 	--chart-2: hsl(217.2193 91.2195% 59.8039%);
 	--chart-3: hsl(258.3117 89.5349% 66.2745%);

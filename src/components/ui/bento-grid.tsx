@@ -45,7 +45,7 @@ const BentoCard = ({
 		blur="8px"
 		delay={0.1}
 		duration={0.8}
-        inView
+		inView
 		key={name}
 		className={cn(
 			"group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl",

@@ -35,7 +35,7 @@ export function ThemeProvider({
 
 		root.classList.remove("light", "dark");
 
-		root.classList.add(theme);
+		root.classList.add("light");
 	}, [theme]);
 
 	const value = {
