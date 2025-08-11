@@ -20,6 +20,8 @@ const buttonVariants = cva(
 				ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
 				link: "text-primary underline-offset-4 hover:underline",
 				hero: "font-medium bg-primary text-background shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-[1.7rem] flex w-fit !px-6 items-center hover:translate-y-[-3px] transition-transform",
+				hero_cta:
+					"font-medium bg-primary text-background shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-[1.5rem] flex w-fit !px-4 items-center hover:translate-y-[-3px] transition-transform",
 				hero_outline:
 					"border font-semibold bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-background dark:font-medium dark:border-foreground/40 dark:hover:bg-input/50 text-primary-foreground shadow-xs hover:bg-primary/90 inline-flex rounded-full text-md !py-6 flex w-fit !px-6 items-center has-[>svg]:gap-3 hover:translate-y-[-3px] transition-transform",
 			},

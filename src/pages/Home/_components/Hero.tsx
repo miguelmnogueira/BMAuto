@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 function Hero() {
 	return (
-		<div className="flex  mt-28 h-[50vh] w-full relative">
+		<div className="flex mb-28 min-h-[75vh] w-full relative">
 			<div className="flex flex-col gap-8 justify-center items-start w-full">
 				<BlurFade delay={0.1} duration={0.8} blur="8px">
 					<h2 className="text-6xl font font-semibold max-w-[55%]">
@@ -30,7 +30,7 @@ function Hero() {
 							to="features"
 							smooth={true}
 							duration={500}
-							offset={-250}
+							offset={-200}
 						>
 							<Button variant={"hero_outline"}>Saiba Mais</Button>
 						</Link>
