@@ -12,7 +12,7 @@ body {
 }
 
 @theme {
-	--spacing-container: 10px;
+	--spacing-container: 100px;
 }
 :root {
 	--background: hsl(0 0% 98.8235%);
