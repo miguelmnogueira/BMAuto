@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")!).render(
 	<BrowserRouter>
 		<ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
 			<Header />
-			<div className="container mx-auto px-container">
+			<div className="container mx-auto md:px-container px-4">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/produtos/pneumatica" element={<Products />} />

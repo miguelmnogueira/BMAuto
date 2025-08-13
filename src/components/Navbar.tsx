@@ -11,8 +11,8 @@ import {
 } from "@/components/ui/navigation-menu";
 const Navbar = () => {
 	return (
-		<NavigationMenu viewport={true}>
-			<NavigationMenuList className="flex gap-6">
+		<NavigationMenu viewport={true} className="max-md:hidden">
+			<NavigationMenuList className="flex lg:gap-4">
 				<NavigationMenuItem>
 					<NavigationMenuLink
 						asChild
