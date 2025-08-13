@@ -4,6 +4,7 @@ import { ArrowRightIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { BlurFade } from "./blurfade";
+import { Link } from "react-router";
 
 const BentoGrid = ({
 	children,
@@ -73,10 +74,10 @@ const BentoCard = ({
 				size="sm"
 				className="pointer-events-auto"
 			>
-				<a href={href}>
+				<Link to={href}>
 					{cta}
 					<ArrowRightIcon className="ml-2 h-4 w-4" />
-				</a>
+				</Link>
 			</Button>
 		</div>
 		<div className="pointer-events-none absolute inset-0 transform-gpu transition-all duration-300 group-hover:bg-black/[.03] " />
