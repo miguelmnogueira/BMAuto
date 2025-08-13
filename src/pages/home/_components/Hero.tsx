@@ -2,6 +2,7 @@ import { BlurFade } from "@/components/ui/blurfade";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-scroll";
+import { Link as LinkRouter } from "react-router";
 
 function Hero() {
 	return (
@@ -22,10 +23,12 @@ function Hero() {
 				</BlurFade>
 				<BlurFade delay={0.5} duration={0.8} blur="8px">
 					<div className="flex gap-4 items-center">
-						<Button variant={"hero"}>
-							Veja nossos produtos
-							<ArrowRight strokeWidth={4} />
-						</Button>
+						<LinkRouter to="produtos/pneumatica">
+							<Button variant={"hero"}>
+								Veja nossos produtos
+								<ArrowRight strokeWidth={4} />
+							</Button>
+						</LinkRouter>
 						<Link
 							to="features"
 							smooth={true}
