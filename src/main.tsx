@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import { ThemeProvider } from "./components/ThemeProvider";
 import Header from "./components/Header";
 import Products from "./pages/products/Products";
+import Footer from "./components/Footer";
 
 createRoot(document.getElementById("root")!).render(
 	<BrowserRouter>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
 					<Route path="/produtos/pneumatica" element={<Products />} />
 				</Routes>
 			</div>
+			<Footer />
 		</ThemeProvider>
 	</BrowserRouter>
 );
